@@ -1,3 +1,6 @@
+/// [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)
+/// in-place marking using negative numbers
+
 impl Solution {
     pub fn find_error_nums(mut nums: Vec<i32>) -> Vec<i32> {
         let mut duplicate = 0;
